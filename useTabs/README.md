@@ -6,19 +6,19 @@ React Hook to use content easily in array of objects inside.
 
 yarn  
 ```
-yarn add @nooks/use-tabs  
+yarn add @practical-react-hooks/use-tabs  
 ```
   
 npm
 ```  
-npm i @nooks/use-tabs
+npm i @practical-react-hooks/use-tabs
 ```
 
 ## Usage
   
 ```
 import React from "react";
-import useTabs from "@nooks/use-tabs";
+import useTabs from "@practical-react-hooks/use-tabs";
 
 const content = [
   {

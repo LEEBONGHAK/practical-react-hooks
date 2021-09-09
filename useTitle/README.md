@@ -6,19 +6,19 @@ React Hook to update your document's title.
 
 yarn  
 ```
-yarn add @nooks/use-title  
+yarn add @practical-react-hooks/use-title  
 ```
   
 npm
 ```  
-npm i @nooks/use-title  
+npm i @practical-react-hooks/use-title  
 ```
 
 ## Usage
   
 ```
 import React from "react";
-import useTitle from "@nooks/use-title";
+import useTitle from "@practical-react-hooks/use-title";
 
 function App() {
   useTitle("Welcome");

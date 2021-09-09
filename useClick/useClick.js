@@ -1,4 +1,4 @@
-const useClick = (onClick) => {
+export const useClick = (onClick) => {
   const element = useRef();
   useEffect(() => {
     // check onClick is function
@@ -12,7 +12,7 @@ const useClick = (onClick) => {
     return () => {
       // for componentWillUnMount
       if (element.current) {
-        element.current.removeEEventListener("click", onClick);
+        element.current.removeEventListener("click", onClick);
       }
     };
   }, []);

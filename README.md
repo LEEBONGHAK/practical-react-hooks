@@ -27,6 +27,6 @@ Collection of sexy React Hooks ready to install with NPM
   - [x] useFadeOut : 어떤 element든지 상관없이 애니메이션을 fade out
   - [x] useNetwork : Online또는 Offline으로 바뀔 때 함수 호출
   - [x] useScroll : scroll을 사용할 때를 감지하여 알려줌
-  - [ ] useFullscreen : 어떤 element든지 fullscreen으로 만들거나 일반 화면으로 돌아가게 만듬
+  - [ ] useFullscreen : 어떤 element든지 fullscreen(전체화면)으로 만들거나 일반 화면으로 돌아가게 만듬
   - [ ] useNotification : notification API를 사용할 때 유저에게 알링을 보냄
   - [ ] useAxios : HTTP requests client axios를 위한 wrapper

@@ -6,6 +6,11 @@ react hook을 만들고, npm pakage에 등록하는 강의
 강의 url : https://nomadcoders.co/react-hooks-introduction  
 publishing to NPM : https://www.npmjs.com/org/practical-react-hooks?tab=packages
   
+how to npm publish?
+ - @(npm name) is like a scop on NPM so need to make an organization
+ - ```npm login```
+ - ```npm publish --access public```
+  
 ---  
 ## React Hooks?
   

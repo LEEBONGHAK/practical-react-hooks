@@ -23,9 +23,9 @@ Collection of sexy React Hooks ready to install with NPM
   - [x] useConfirm : 어떤 기능을 확인
   - [x] usePreventLeave : 유저가 변경사항이나 어떤 것을 저장하지 않고 페이지를 벗어나길 원할 때 확인
   - [x] useBeforeLeave : 마우스가 page screen를 벗어나는 시점을 발견하고 함수 실행
-  - [x] useFadeIn : 어떤 element든지 상관없이 애니메이션을 element안으로 서서히 나타나게 만듬
-  - [x] useFadeOut : 어떤 element든지 상관없이 애니메이션을 element안으로 서서히 사라지게 만듬
-  - [ ] useNetwork : Online과 Offline 판별
+  - [x] useFadeIn : 어떤 element든지 상관없이 애니메이션을 fade in
+  - [x] useFadeOut : 어떤 element든지 상관없이 애니메이션을 fade out
+  - [ ] useNetwork : Online또는 Offline으로 바뀔 때 함수 호출
   - [ ] useScroll : scroll을 사용할 때를 감지하여 알려줌
   - [ ] useFullscreen : 어떤 element든지 fullscreen으로 만들거나 일반 화면으로 돌아가게 만듬
   - [ ] useNotification : notification API를 사용할 때 유저에게 알링을 보냄

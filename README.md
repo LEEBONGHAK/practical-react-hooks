@@ -4,7 +4,8 @@ Learn by Building 10 Hooks
 react hook을 만들고, npm pakage에 등록하는 강의  
   
 강의 url : https://nomadcoders.co/react-hooks-introduction  
-
+publishing to NPM : ```https://www.npmjs.com/org/practical-react-hooks?tab=packages``` 
+  
 ---  
 ## React Hooks?
   

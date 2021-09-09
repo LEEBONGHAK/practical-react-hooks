@@ -6,18 +6,34 @@ react hook을 만들고, npm pakage에 등록하는 강의
 강의 url : https://nomadcoders.co/react-hooks-introduction  
 publishing to NPM : https://www.npmjs.com/org/practical-react-hooks?tab=packages
   
-how to npm publish?
- - @(npm name) is like a scop on NPM so need to make an organization
- - ```npm login```
- - ```npm publish --access public```
-  
----  
 ## React Hooks?
   
 functional component에서 state를 가질 수 있게 해준다. 즉, functional programming 을 가능하게 해준다.  
 react hook은 recompose라는 라이브러리에서 시작되었고, 이 라이브러리가 react 팀에 인수 되면서 hook으로 발전했다.  
   
+## How to NPM Publish?
+  
+1. ```npm init```  
+"main" has to be there b/c this is a package that other people would install  
+  
+2. ```npm i react react-dom```  
+"peerDependencies": required but we don't need to install it  
+- e.g. If the user already has React installed, useTitle is not going to install React again or start React on its node modules  
+  
+3. ```npm login```  
+@(Organization name) here is like a scope on NPM so we need to make an organization  
+  
+4. ```npm publish --access public```  
+  
+  
+### Note :  
+React doesn't like if we put hooks inside of a timeout  
+=> Hooks should be on the root of the component  
+  
+Before publishing, do something like usage, installation (npm yarn/add/install), examples  
+  
 ---
+  
 Collection of sexy React Hooks ready to install with NPM
   
   

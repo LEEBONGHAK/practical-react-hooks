@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 // validator : 문자 입력 규칙을 원할 경우 함수를 만들어 사용
 export const useInput = (initialValue, validator) => {
   const [value, setValue] = useState(initialValue);

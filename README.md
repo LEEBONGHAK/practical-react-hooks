@@ -17,7 +17,7 @@ Collection of sexy React Hooks ready to install with NPM
   
   - [x] useInput : input을 업데이트
   - [x] useTabs : website에 메뉴 또는 무엇이든지 tab을 사용하기 쉽게 만들어 주는 것
-  - [ ] useTitle : react document의 title을 몇개의 hooks와 함께 바꾸는 것
+  - [x] useTitle : react document의 title을 몇개의 hooks와 함께 바꾸는 것
   - [ ] usePageLeave : 유저가 page를 벗어나는 시점을 발견하고 함수 실행
   - [ ] useClick : 어떤 element를 클릭하는 시점을 발견하고 함수 실행
   - [ ] useFadIn : 어떤 element든지 상관없이 애니메이션을 element안으로 서서히 사라지게 만듬

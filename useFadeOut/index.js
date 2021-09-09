@@ -1,0 +1,1 @@
+export { useFadeOut as default } from './useFadeOut';

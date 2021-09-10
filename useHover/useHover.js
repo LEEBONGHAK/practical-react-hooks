@@ -1,3 +1,5 @@
+import { useEffect, useRef } from 'react';
+
 export const useHover = (onHover) => {
   const element = useRef();
   useEffect(() => {
@@ -5,12 +7,12 @@ export const useHover = (onHover) => {
     if (typeof onHover !== "function") {
       return;
     }
+    // for componentDidMount and componentDidUpdate
     if (element.current) {
-      // for componentDidMount and componentDidUpdate
       element.current.addEventListener("mouseenter", onHover);
     }
+    // for componentWillUnMount
     return () => {
-      // for componentWillUnMount
       if (element.current) {
         element.current.removeEventListener("mouseenter", onHover);
       }

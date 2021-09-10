@@ -1,7 +1,7 @@
 {
-  "name": "@practical-react-hooks/use-notification",
-  "version": "1.0.1",
-  "description": "React Hook to make web browser notification to user",
+  "name": "@practical-react-hooks/use-axios",
+  "version": "1.0.0",
+  "description": "React Hook to make HTTP requests with allowing to set configurations and customizations",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,15 +13,16 @@
   "keywords": [
     "react",
     "hook",
-    "notification"
+    "axios"
   ],
-  "author": "leebonghsk",
+  "author": "leebonghak",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LEEBONGHAK/practical-react-hooks/issues"
   },
   "homepage": "https://github.com/LEEBONGHAK/practical-react-hooks/tree/main#readme",
   "peerDependencies": {
+    "axios": "^0.21.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }

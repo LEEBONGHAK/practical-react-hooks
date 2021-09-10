@@ -33,7 +33,7 @@ const App = () => {
 ## Arguments
   
 |Argument|Type|Description|Required|
-|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|
 |title|string|Notification title|yes|
 |options|objects|Notification options in notification API (https://developer.mozilla.org/en-US/docs/Web/API/notification)|no|
 

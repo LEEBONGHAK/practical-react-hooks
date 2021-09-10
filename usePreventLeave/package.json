@@ -1,7 +1,7 @@
 {
-  "name": "@practical-react-hooks/use-confirm",
-  "version": "1.0.2",
-  "description": "React Hook to ask the user for a confirmation before executing a function.",
+  "name": "@practical-react-hooks/use-prevent-leave",
+  "version": "1.0.0",
+  "description": "React Hook to prompt the user for confirmation before leaving the page. Useful when changes haven't been saved.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,9 +12,8 @@
   },
   "keywords": [
     "react",
-    "react",
-    "hooks",
-    "confirm"
+    "react-hook",
+    "prevent-leave"
   ],
   "author": "leebonghak",
   "license": "MIT",

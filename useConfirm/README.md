@@ -21,9 +21,9 @@ import React from "react";
 import useConfirm from "@practical-react-hooks/use-confirm";
 
 const App = () => {
+  const deleteWorld = () => console.log("Deleting world...");
+  const confirmDelete = useConfirm("Are you sure?", deleteWorld);
   return (
-    const deleteWorld = () => console.log("Deleting world...");
-    const confirmDelete = useConfirm("Are you sure?", deleteWorld);
     <div className="App">
       <button onClick={confirmDelete}>Delete the world</button>
     </div>

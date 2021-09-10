@@ -1,3 +1,5 @@
+import React from 'react';
+
 // use Notification API (https://developer.mozilla.org/en-US/docs/Web/API/notification)
 export const useNotification = (title, options) => {
   if (!("Notification" in window)) {

@@ -1,6 +1,6 @@
 {
   "name": "@practical-react-hooks/use-before-leave",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Hook to execute a function when the mouse leaves the page. Useful to show a popup or for analytics.",
   "main": "index.js",
   "scripts": {

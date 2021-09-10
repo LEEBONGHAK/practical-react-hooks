@@ -1,6 +1,9 @@
+import { useRef } from 'react';
+
 export const useFullscreen = (callBack) => {
   const element = useRef();
-  const runCb = (isFull) => {   // callBack이 함수인지 확인
+  const runCb = (isFull) => {   
+    // callBack이 함수인지 확인
     if (typeof callBack === "function") {
       callBack(isFull);
     }

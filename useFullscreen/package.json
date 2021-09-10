@@ -1,0 +1,28 @@
+{
+  "name": "@practical-react-hooks/use-fullscreen",
+  "version": "1.0.0",
+  "description": "React Hook to make any element go Fullscreen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEEBONGHAK/practical-react-hooks.git#main"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "fullscreen"
+  ],
+  "author": "leebonghak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LEEBONGHAK/practical-react-hooks/issues"
+  },
+  "homepage": "https://github.com/LEEBONGHAK/practical-react-hooks/tree/main#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

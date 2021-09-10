@@ -1,3 +1,5 @@
+import { useEffect, useRef } from 'react';
+
 export const useClick = (onClick) => {
   const element = useRef();
   useEffect(() => {
@@ -5,12 +7,12 @@ export const useClick = (onClick) => {
     if (typeof onClick !== "function") {
       return;
     }
+    // for componentDidMount and componentDidUpdate
     if (element.current) {
-      // for componentDidMount and componentDidUpdate
       element.current.addEventListener("click", onClick);
     }
+    // for componentWillUnMount
     return () => {
-      // for componentWillUnMount
       if (element.current) {
         element.current.removeEventListener("click", onClick);
       }

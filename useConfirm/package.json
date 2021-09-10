@@ -1,6 +1,6 @@
 {
   "name": "@practical-react-hooks/use-confirm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Hook to ask the user for a confirmation before executing a function.",
   "main": "index.js",
   "scripts": {

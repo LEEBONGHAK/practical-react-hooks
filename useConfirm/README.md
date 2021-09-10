@@ -40,6 +40,6 @@ const App = () => {
 |onCancel|function|Function to be executed when the user cancels|no|
 
 ## Return
-|Return|value|Type|Description|Default value|
-|:---:|:---:|:---:|:---:|:---:|
+|Return value|Type|Description|Default value|
+|:---:|:---:|:---:|:---:|
 |function|function|Function wrapped around the confirmation logic|null|

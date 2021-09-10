@@ -1,7 +1,7 @@
 {
-  "name": "@practical-react-hooks/use-fade-out",
-  "version": "1.0.2",
-  "description": "React Hook to fade out any element.",
+  "name": "@practical-react-hooks/use-network",
+  "version": "1.0.0",
+  "description": "React Hook to listen when the user goes online or offline.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,7 @@
   "keywords": [
     "react",
     "hooks",
-    "fade-out"
+    "network"
   ],
   "author": "leebonghak",
   "license": "MIT",

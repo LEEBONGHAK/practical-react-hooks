@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react';
+
 export const useNetwork = (onChange) => {
   // navigator.onLine : 웹사이트가 online 상태인지 boolean으로 반환
   const [status, setStatus] = useState(navigator.onLine);
